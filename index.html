@@ -64,6 +64,56 @@
     </div>
   </header>
 
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Estamos renovando nuestra web <i class="fa fa-exclamation-triangle text-warning"></i></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col">
+            <span>Pero no te preocupes, nuestros servicios siguen activos: </span>
+            <br><br>
+
+            <ul>
+              <li>
+                Marketing
+              </li>
+              <li>
+                Community manager
+              </li>
+              <li>
+                Diseño
+              </li>
+              <li>
+                Diseño web
+              </li>
+              <li>
+                Y mucho más
+              </li>
+            </ul>
+            <hr>
+            <h4>¿Y vos ?</h4>
+            <br>
+            <h5>¿Estás creciendo junto con la era digital?</h5>
+            <h6>Queremos ayudarte a revolucionar tu marca.</h6>
+            <p>Contamos con las mejores técnicas y herramientas</p>
+            <span>No dudes en contactarnos</span>
+            <br><br>
+          </div>
+
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
   <!-- Services Section -->
@@ -152,6 +202,12 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script type="text/javascript">
+      $(window).on('load',function(){
+          $('#myModal').modal('show');
+      });
+  </script>
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
